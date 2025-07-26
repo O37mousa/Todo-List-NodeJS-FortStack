@@ -22,7 +22,11 @@ RUN chown -R nextjs:nodejs /app
 USER nextjs
 
 # Expose the port the app runs on
-EXPOSE 4000
+EXPOSE 4001
+
+ENV PORT=4001
+ENV mongoDbUrl=${mongoDbUrl}
+
 
 # Define the command to run the application
 CMD ["npm", "start"]

@@ -4,9 +4,9 @@ services:
   app:
     build: .
     ports:
-      - "4000:4000"
+      - "4001:4001"
     environment:
-      - mongoDbUrl=mongodb://mongo:27017/todolistdb
+      - mongoDbUrl=${MONGODB_URI}
     depends_on:
       - mongo
     networks:
