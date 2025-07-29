@@ -55,3 +55,5 @@ build/
 tmp/
 temp/
 .env
+hosts
+node_modules/
