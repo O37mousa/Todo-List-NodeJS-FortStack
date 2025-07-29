@@ -142,26 +142,6 @@ This section documents all custom or modified files in this project and their ro
 
 ---
 
-## Project Tasks (Intern Assessment)
-
-### Part 1 (30 points):
-
-- Cloned and customized `Todo-List-nodejs` app.
-- Dockerized the application.
-- Used GitHub Actions to build and push to **private** Docker Hub registry.
-
-### Part 2 (30 points):
-
-- Created a local CentOS VM.
-- Used Ansible from host to install Docker on the VM.
-
-### Part 3 (40 points):
-
-- Used `docker-compose` on VM to run the application.
-- Used Watchtower for automatic updates when a new image is pushed.
-
----
-
 ## Author
 
 **Omar Mousa** — [GitHub: o37mousa](https://github.com/o37mousa)
